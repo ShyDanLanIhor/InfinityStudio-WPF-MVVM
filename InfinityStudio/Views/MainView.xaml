@@ -17,15 +17,6 @@
         <viewModel:MainViewModel/>
     </Window.DataContext>
 
-    <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Styles/UIColors.xaml"/>
-                <ResourceDictionary Source="/Styles/ButtonStyles.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Window.Resources>
-
     <Border CornerRadius="10"
 			BorderThickness="5"
                 Opacity="0.85">
@@ -72,7 +63,7 @@
                                    Margin="10,0,0,0"/>
                     </StackPanel>
 
-                    <RadioButton Style="{StaticResource menuButton}"
+                    <RadioButton Style="{StaticResource men}"
                                  Tag="{StaticResource color1}">
 
                         <StackPanel Orientation="Horizontal">
